@@ -1,6 +1,14 @@
-h1 {
-    color: rgb(255, 0, 0) ; font-size: 20px
-    }
-p {
-    color: rosybrown ; font-size: 50px; font-weight: bolder;
-    } 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-color: rgb(28, 28, 28);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
