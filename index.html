@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selfie Jones Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
 
  
 </head>
+
 <body>
-    <header><div>
-        <span>SELFIE JONES</span>
+    <header class="header-sec"><div class="logo">
+        <a href="./index.html"><span class="logo1">SELFIE</span><span class="logo2"> JONES</span></a>
+        <style>
+            a:link{
+              text-decoration: none!important;
+              cursor: pointer;
+            }
+            </style>
     </div>
-    <div>
+    <div class="linkers">
         <ul>
             <li>
-                <a href="#">Home</a>
+                <a href="./index.html">Home</a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="./about.html">About</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="./contact.html">Contact</a>
             </li>
         </ul>
     </div>
@@ -32,6 +40,51 @@
     </div>
  
     </header>
+    <main>
+        <section class="hero-sec">
+            <div>
+                <h5 class="hero-sec__subti">
+                    Hi There!
+                </h5>
+                <h1 class="hero-sec__title">
+                    I'm <span>Selfie</span>
+                </h1>
+                <p class="hero-sec__desc">
+                    Frontend Developer - UI/UX Designer - Graphic Designer - Freelancer
+                </p>
+                <ul class="social-icones">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100055784954005" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/tishbian-meshach/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/selfie_jones/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/jones_selfie" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    
+                </ul>
+                <div>
+                    <button class="butt">
+                        CONTACT ME
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img src="source/DSC_1296 (1).png" alt="selfiepic" width="800">
+            </div>
+
+        </section>
+        
+
+
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>

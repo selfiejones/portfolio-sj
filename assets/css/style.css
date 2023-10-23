@@ -1,9 +1,9 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-    --dark-primary: rgb(28, 28, 28);
-    --blue-primary: rgb(30, 121, 249);
+    --dark-primary: rgb(21, 8, 30);
+    --blue-primary: rgb(143, 30, 249);
 }
 
 * {
@@ -15,31 +15,69 @@ body {
     font-family: 'Montserrat', sans-serif;
     
 }
-header
-{
+
+.header-sec{
     background-color: var(--dark-primary);
     padding: 20px;
     color: white;
     display: flex;
     justify-content: space-around;
+    vertical-align: middle;
+    
+   
 }
 
-ul
+.logo{
+    padding-top: 10px;
+}
+
+
+
+.logo1{
+    
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+    
+    
+   
+    
+}
+.logo2{
+    
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: var(--blue-primary);
+    
+    
+   
+    
+}
+
+.linkers{
+    padding-top: 10px;
+}
+
+header ul
 {
     display: flex;
     list-style: none;
     
 }
 
-ul li{
+header ul li{
     margin-right: 20px;
 
 }
 
-ul li a{
+header ul li a{
     color: white;
     text-decoration: none;
   
+}
+header ul li a:hover{
+    color: var(--blue-primary);
+    
 }
 
 header button{
@@ -49,7 +87,86 @@ header button{
     color: var(--blue-primary);
     border: 1px solid var(--blue-primary);
     border-radius: 5px;
+    box-shadow: 15px 15px 30px rgb(36, 13, 57);
 
 
     
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: var(--blue-primary);
+
+    color: var(--dark-primary);
+    
+}
+
+.hero-sec{
+    background-color: var(--dark-primary);
+    color: white;
+    display: flex;
+    padding: 0px 250px 0px 250px;
+    align-items: center;
+}
+
+.hero-sec__subti{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10x;
+}
+.hero-sec__title{
+    font-size: 35px;
+    color: var(--blue-primary);
+    
+    text-shadow: 5px 5px 30px rgb(132, 0, 255);
+}
+.hero-sec__title span{
+    color: white;
+    text-shadow: 5px 5px 30px rgb(171, 171, 171);
+}
+.hero-sec__desc{
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: rgb(240, 223, 255);
+    padding-top: 5px;
+}
+
+.social-icones{
+    list-style: none;
+    display: flex;
+    letter-spacing: 15px;
+    padding-top: 10px;
+}
+.social-icones li a:hover{
+    color: white;
+}
+
+.social-icones li a{
+    text-decoration: none;
+    
+    
+    color: var(--blue-primary);
+    font-size: small;
+
+}
+
+.butt{
+    padding: 10px 13px;
+    margin-top: 15px;
+    font-weight: 600;
+    background-color: var(--dark-primary);
+    color: var(--blue-primary);
+    border: 1px solid var(--blue-primary);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: 15px 15px 30px rgb(36, 13, 57);
+}
+
+.butt:hover{
+    cursor: pointer;
+    background-color: var(--blue-primary);
+    
+
+    color: var(--dark-primary);
 }
