@@ -82,7 +82,9 @@ header ul li a:hover{
 
 header button{
     padding: 10px 20px;
-    font-weight: bold;
+    font-weight: medium;
+    font-size: x-small;
+    letter-spacing: 2px;
     background-color: var(--dark-primary);
     color: var(--blue-primary);
     border: 1px solid var(--blue-primary);
@@ -94,10 +96,11 @@ header button{
 }
 
 header button:hover{
+   
+    color: rgb(215, 172, 255);
     cursor: pointer;
-    background-color: var(--blue-primary);
-
-    color: var(--dark-primary);
+    border-color: rgb(215, 172, 255);
+    box-shadow: 3px 3px 15px 1px rgb(77, 31, 120) inset , 15px 15px 30px rgb(62, 23, 98);
     
 }
 
@@ -107,6 +110,7 @@ header button:hover{
     display: flex;
     padding: 0px 250px 0px 250px;
     align-items: center;
+    justify-content: center;
 }
 
 .hero-sec__subti{
@@ -152,21 +156,68 @@ header button:hover{
 }
 
 .butt{
-    padding: 10px 13px;
-    margin-top: 15px;
-    font-weight: 600;
+    padding: 10px 20px;
+    font-weight: medium;
+    font-size: x-small;
+    letter-spacing: 2px;
     background-color: var(--dark-primary);
     color: var(--blue-primary);
     border: 1px solid var(--blue-primary);
     border-radius: 5px;
-    letter-spacing: 1px;
     box-shadow: 15px 15px 30px rgb(36, 13, 57);
+    margin-top: 20px;
 }
 
 .butt:hover{
+   
+    color: rgb(215, 172, 255);
     cursor: pointer;
-    background-color: var(--blue-primary);
-    
+    border-color: rgb(215, 172, 255);
+    box-shadow: 3px 3px 15px 1px rgb(77, 31, 120) inset , 15px 15px 30px rgb(62, 23, 98);
 
-    color: var(--dark-primary);
+
+    
+  
+
+   
+}
+.about-sec{
+    display: flex;
+    background-color: rgb(28, 15, 39);
+    color: white;
+    justify-content: space-evenly;
+    padding: 40px 40px;
+    vertical-align: middle;
+}
+.about-sec__img{
+    margin-left: 20px;
+    margin-top: 0px;
+    
+ 
+}
+.about-sec__img img{
+    border-radius: 50%;
+}
+.about-sec__main{
+    vertical-align: middle;
+    margin-top: 60px;
+}
+.about-sec__cont{
+    list-style: none;
+}
+.about-sec__butt{
+    border-radius: 5px;
+    border: none;
+    background-color: var(--blue-primary);
+    color: white;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: x-small;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px rgb(216, 176, 255);
+    box-shadow: 3px 3px 25px 1px rgb(77, 31, 120) inset , 15px 15px 30px rgb(36, 13, 57);
+}
+.about-sec__butt:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 25px 1px rgb(77, 31, 120) inset , 15px 15px 30px rgb(62, 23, 98);
 }
