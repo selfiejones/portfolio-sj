@@ -252,9 +252,9 @@ header button:hover{
     font-size: x-small;
     letter-spacing: 2px;
     text-shadow: 1px 1px 5px rgb(216, 176, 255);
-    box-shadow: 3px 3px 25px 1px rgb(77, 31, 120) inset , 15px 15px 30px rgb(36, 13, 57);
+    box-shadow: 3px 3px 25px 1px rgb(77, 31, 120) inset , 15px 15px 30px rgb(46, 18, 73);
 }
 .about-sec__butt:hover{
     cursor: pointer;
-    box-shadow: 3px 3px 25px 1px rgb(77, 31, 120) inset , 15px 15px 30px rgb(62, 23, 98);
+    box-shadow: 3px 3px 25px 1px rgb(77, 31, 120) inset , 15px 15px 30px rgb(69, 26, 110);
 }
