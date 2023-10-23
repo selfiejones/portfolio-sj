@@ -1,7 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
-
+:root{
+    --dark-primary: rgb(28, 28, 28);
+    --blue-primary: rgb(30, 121, 249);
+}
 
 * {
     margin: 0;
@@ -10,10 +13,11 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    
 }
 header
 {
-    background-color: rgb(28, 28, 28);
+    background-color: var(--dark-primary);
     padding: 20px;
     color: white;
     display: flex;
@@ -40,4 +44,12 @@ ul li a{
 
 header button{
     padding: 10px 20px;
+    font-weight: bold;
+    background-color: var(--dark-primary);
+    color: var(--blue-primary);
+    border: 1px solid var(--blue-primary);
+    border-radius: 5px;
+
+
+    
 }
