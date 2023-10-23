@@ -188,24 +188,61 @@ header button:hover{
     justify-content: space-evenly;
     padding: 40px 40px;
     vertical-align: middle;
+    align-items: center;
 }
 .about-sec__img{
     margin-left: 20px;
-    margin-top: 0px;
+    margin-top: 5px;
     
  
 }
 .about-sec__img img{
     border-radius: 50%;
+
+    border: 5px solid var(--blue-primary);
+    box-shadow: 0px 0px 40px rgb(97, 26, 163);
 }
 .about-sec__main{
     vertical-align: middle;
-    margin-top: 60px;
+
+    
+}
+.about-sec__subti{
+    font-size: xx-large;
+    color: var(--blue-primary);
+}
+.about-sec__subti span{
+    color: white;
 }
 .about-sec__cont{
     list-style: none;
+    margin-top: 15px;
 }
+.about-sec__cont li{
+    margin-bottom: 8px;
+}
+
+.about-sec__cont li p{
+    font-size: small;
+    letter-spacing: 1px;
+    color:  rgb(211, 185, 234);
+}
+.about-sec__cont li p a{
+    text-decoration: none;
+    list-style: none;
+    color:  rgb(211, 185, 234);
+}
+.about-sec__cont li p a:hover{
+    color:var(--blue-primary)
+}
+.about-sec__cont li p strong{
+    color: white;
+    font-weight: 500;
+}
+
+
 .about-sec__butt{
+    margin-top: 15px;
     border-radius: 5px;
     border: none;
     background-color: var(--blue-primary);
